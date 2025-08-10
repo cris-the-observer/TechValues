@@ -1,6 +1,6 @@
 # Techno‑Political Values Test
 
-An interactive quiz that maps your views across thirteen techno-political spectrums — from transhumanism to state stewardship to UBI. Inspired by JREG’s Tech Spectrum, the test blends political compass–style scoring with technology-specific value questions, mixing categories so your answers stay balanced.
+An interactive quiz that maps your views across thirteen techno-political spectrums. From transhumanism to state stewardship to UBI. Inspired by JREG’s Tech Spectrum, the test blends political compass–style scoring with technology-specific value questions, mixing categories so your answers stay balanced.
 
 Features
 - 52 carefully crafted statements, randomized to avoid category bias
