@@ -621,7 +621,20 @@ export default function App() {
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="axis" angle={-20} textAnchor="end" interval={0} height={60} tick={{ fontSize: 11 }} />
                       <YAxis domain={[0, 100]} />
-                      <RechartsTooltip />
+                      <RechartsTooltip
+                        cursor={{ fill: 'rgba(255,255,255,0.04)' }}
+                        contentStyle={{
+                          backgroundColor: '#0f172a', // slate-950
+                          border: '1px solid #334155', // slate-700
+                          borderRadius: 12,
+                          color: '#e2e8f0', // slate-200
+                          boxShadow: '0 8px 24px rgba(0,0,0,0.35)'
+                        }}
+                        labelStyle={{ color: '#cbd5e1', fontWeight: 600, marginBottom: 4 }}
+                        itemStyle={{ color: '#f8fafc' }}
+                        formatter={(value) => [`${value}%`, 'Right']}
+                        labelFormatter={(label) => label}
+                      />
                       <Bar dataKey="Right" isAnimationActive={false}>
                         {chartData.map((d, i) => (
                           <Cell key={`cell-${i}`} fill={AXIS_COLORS[d.id] || "#6366F1"} />
