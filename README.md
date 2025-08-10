@@ -1,10 +1,20 @@
 # Techno‑Political Values Test
 
-A fresh Vite + React app for the 12+1 axis techno‑political test with:
-- Mixed question order (no axis clumps)
-- Results hidden until completion
-- Radar + color‑coded bar charts (Recharts)
-- Minimal UI kit compatible with shadcn-style imports
+An interactive quiz that maps your views across thirteen techno-political spectrums — from transhumanism to state stewardship to UBI. Inspired by JREG’s Tech Spectrum, the test blends political compass–style scoring with technology-specific value questions, mixing categories so your answers stay balanced.
+
+Features
+- 52 carefully crafted statements, randomized to avoid category bias
+- Dark mode default with smooth, minimal UI
+- Color-coded bar and radar charts for clear results visualization
+- Contextual question descriptions for better clarity
+- All processing is client-side — your answers stay in your browser
+
+Tech stack
+- React + Vite
+- TailwindCSS + shadcn/ui
+- Recharts for data visualization
+- Framer Motion for animations
+
 
 ## Quick start
 
