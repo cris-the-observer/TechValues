@@ -1,8 +1,10 @@
 node_modules
 .direnv
+.DS_Store
 
 # production
 /build
+/dist
 
 .env
 .env.*
