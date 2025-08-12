@@ -1,1 +1,9 @@
 node_modules
+.direnv
+
+# production
+/build
+
+.env
+.env.*
+!.env.example
